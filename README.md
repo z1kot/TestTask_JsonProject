@@ -1,5 +1,7 @@
 Unreal Engine 5.3.2 project for working with JSON files.
 
+Ссылка на билд: https://drive.google.com/file/d/148B1DXWCl5gX8hMlwAVYT3im2BhJD-rR/view?usp=sharing
+
 MVC architecture
 
 ## Model
@@ -30,3 +32,6 @@ View не содержит логики изменения модели — ег
 
 - Файл для инициализации данных читает файл из Content/Data - по дефолту указан `init_data.json`
 - Сохраняет обновленные данные в Saved/ - по дефолту указан `objects_state.json`
+
+## Colors
+- Для преобразования названия цвета(red, blue, etc.) в FColor и обратно - написал класс, в котором хранится небольшой словарь с названием цвета и соотвестующего ему FColor.
