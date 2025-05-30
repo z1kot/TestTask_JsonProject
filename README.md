@@ -35,3 +35,7 @@ View не содержит логики изменения модели — ег
 
 ## Colors
 - Для преобразования названия цвета(red, blue, etc.) в FColor и обратно - написал класс, в котором хранится небольшой словарь с названием цвета и соотвестующего ему FColor.
+- Доступны `black`, `white`, `red`, `green`, `blue`, `yellow`, `cyan`, `magenta`, `orange`, `purple`, `gray`
+  
+## Meshes
+- Доступны `Box1`, `Sphere1`, `Cone`, `Cylinder`
